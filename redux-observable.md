@@ -3,7 +3,7 @@ When writing redux-based applications, we generally encounter a problem related 
 
 Logout is a great example of this.
 Let's suppose we have a `LogoutButton` component.
-```
+```js
 const LogoutButton = ({ handleLogout }) => (
   <button onClick={handleLogout}>Logout</button>
 )
@@ -25,7 +25,7 @@ So we are not only dispatching the `logoutAction`, we're also redirecting the ap
 For this reason, you want to use some kind of redux middleware, that will listen to all the actions happening within the application and act accordingly.
 
 An epic would look like this:
-```
+```js
 const logoutEpic = action$ =>
   action$
     .ofType("USER/LOGOUT")

@@ -7,9 +7,6 @@ are a waste of time, use Flow.
 
 ### Simple stateless component
 ```js
-import React from "react"
-import type { Animal } from "data/animal/types"
-
 type Props = {
   animals: Animal[],
 }
@@ -32,9 +29,6 @@ export default AnimalList
 
 ### Simple statefull component
 ```js
-import * as React from "react"
-import type { Animal } from "data/animal/types"
-
 type Props = {
   animals: Animal[],
 }

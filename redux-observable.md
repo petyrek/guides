@@ -1,4 +1,4 @@
-# Redux observables
+# redux-observable
 When writing redux-based applications, we generally encounter a problem related to handling side effects.
 
 Logout is a great example of this.

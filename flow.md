@@ -207,7 +207,7 @@ Now replacing `connect` with `withConnect` will result in type inference working
 
 ## Recompose + Statefull component
 last but not least, if you need to use statefull component in conjunction with recompose, this is how you'd do it
-```
+```js
 class AnimalList<P: *> extends React.Component<P> {
   render() {
     const { animals, loading, animalsLengthX2 } = this.props

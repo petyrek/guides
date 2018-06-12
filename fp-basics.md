@@ -4,6 +4,9 @@ Here we will introduce the basics.
 
 Let's first enhance our vocabulary.
 
+## Side effect
+A function has side effects if it has an observable interaction with the outside world or mutates something outside of it scope.
+
 ## Pure function
 Is a function that given the same input, always produces the same output.
 
